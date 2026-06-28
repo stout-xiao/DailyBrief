@@ -1,91 +1,97 @@
 {
-  "hero_headline": "OpenAI预览GPT-5.6，美伊冲突考验停火协议",
-  "daily_overview": "今日全球局势呈现技术突破与地缘动荡并存特征。科技领域，OpenAI重磅预览下一代GPT-5.6系列模型，展现更强编程与安全能力，谷歌亦跟进Gemini计算机控制功能；财经方面，特朗普威胁对欧洲加征百分之百科技税，而中国竞争加剧则逼迫德国车企开启历史性裁员；政治与安全层面，委内瑞拉双重强震遇难人数突破千人，而霍尔木兹海峡的美伊交火正严重考验刚刚签署的脆弱停火协议，地缘局势再度紧绷。",
+  "hero_headline": "OpenAI发布GPT-5.6预览；美伊冲突重燃考验脆弱停火",
+  "daily_overview": "今日全球局势剧烈震荡。科技领域，OpenAI与谷歌相继发布GPT-5.6预览及Gemini计算机控制功能，AI向强推理与自主代理时代加速迈进。财经方面，德国车企因中国新能源竞争加剧酝酿历史性大裁员，同时特朗普对欧祭出“100%关税”威胁。政治外交上，美伊脆弱停火协议因美军连续两晚报复性空袭而面临崩盘，委内瑞拉强震遇难人数已逾千人，搜救形势严峻。",
   "tech_briefs": [
     {
-      "title": "OpenAI预览下一代GPT-5.6系列模型",
+      "title": "OpenAI预览下一代模型GPT-5.6",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol",
       "source": "OpenAI News",
-      "summary": "OpenAI预览了下一代模型GPT-5.6，包含Sol、Terra和Luna三个版本。该系列在编程、科学和安全领域能力更强，目前仅对信任合作伙伴开放。（多家报道）",
+      "summary": "OpenAI预览了包含Sol、Terra和Luna三款版本的下一代模型GPT-5.6。由于美国政府的安全限制，该旗舰模型目前仅向受信任的合作伙伴受限开放。（多家报道）",
       "importance": 10
     },
     {
-      "title": "谷歌Gemini 3.5支持计算机操作",
+      "title": "谷歌Gemini 3.5引入计算机控制功能",
       "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
       "source": "DeepMind Blog",
-      "summary": "谷歌DeepMind宣布在Gemini 3.5 Flash模型中引入“计算机使用”功能。该功能允许AI像人类一样控制屏幕、移动光标并执行复杂的桌面任务。（多家报道）",
+      "summary": "谷歌DeepMind宣布为其轻量级模型Gemini 3.5 Flash引入“计算机控制”功能，允许AI代理直接操作电脑界面，标志着多模态AI应用进入全新自动化阶段。（多家报道）",
       "importance": 9
     },
     {
-      "title": "隐私通信项目SimpleX Chat",
+      "title": "去中心化隐私通信网络SimpleX开源",
       "url": "https://github.com/simplex-chat/simplex-chat",
       "source": "GitHub Trending",
-      "summary": "该项目是无用户标识符的隐私通信网络。它通过单向队列传递消息，不暴露社交关系等元数据，从底层设计上彻底杜绝了隐私泄露风险，解决了传统社交工具元数据易被监控的问题。",
+      "summary": "该项目是一个不使用任何用户标识符的去中心化即时通讯网络。通过独特的中继协议重新定义了数字隐私，彻底消除了用户元数据泄露的风险，解决传统通讯工具的隐私漏洞问题。",
       "importance": 8
     },
     {
-      "title": "AI价值投资研究框架AI-Berkshire",
+      "title": "开源价值投资研究框架ai-berkshire",
       "url": "https://github.com/xbtlin/ai-berkshire",
       "source": "GitHub Trending",
-      "summary": "基于Claude Code的价值投资框架。它融合巴菲特等大师的方法论，用多智能体并行对抗机制自动进行基本面研究，帮助个人投资者实现机构级研究能力。",
-      "importance": 8
+      "summary": "该项目将巴菲特、段永平等投资大师的研究方法论系统化，利用Claude Code和多智能体协同，自动化进行深度公司基本面分析，帮助个人投资者降低专业研究门槛。",
+      "importance": 7
     }
   ],
   "finance_briefs": [
     {
-      "title": "特朗普威胁对欧洲征收百分之百关税",
-      "url": "https://www.bbc.co.uk/news/articles/cn4rd71411ko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "summary": "美国总统特朗普表示，针对众多欧洲国家计划或讨论开征的“科技税”，美国将通过加征100%的惩罚性关税来进行强力反制。",
-      "importance": 9
-    },
-    {
-      "title": "德国车企遭遇危机启动历史性裁员",
+      "title": "德国车企因中国竞争掀起历史性裁员潮",
       "url": "https://www.ft.com/content/b68964c9-f3d0-48e8-8873-8f463834936c",
       "source": "Financial Times",
-      "summary": "面对中国新能源汽车的激烈竞争和市场涌入，以大众汽车为代表的德国车企正计划在全球进行数万人的历史性裁员，传统工业模式面临严峻挑战。（多家报道）",
+      "summary": "面对来自中国造车新势力的激烈冲击，大众汽车等德国主流车企正计划开展涉及数万人的历史性大裁员，这标志着欧洲最大经济体的传统工业模式正遭遇严峻挑战。（多家报道）",
       "importance": 9
     },
     {
-      "title": "算力资源正在加速转化为新型金融资产",
-      "url": "https://www.economist.com/finance-and-economics/2026/06/22/how-to-turn-compute-into-a-financial-asset",
-      "source": "The Economist Finance",
-      "summary": "随着AI热潮，企业家、交易所以及AI公司正在积极合作，创造以计算机处理能力（算力）为担保、可用于公开交易的新型金融衍生工具。",
+      "title": "特朗普威胁对欧洲国家加征100%关税",
+      "url": "https://www.bbc.co.uk/news/articles/cn4rd71411ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "美国总统特朗普警告称，如果多个欧洲国家继续推进针对美国科技巨头的数字服务税计划，美国将对这些国家实施100%的惩罚性关税政策。",
       "importance": 8
     },
     {
-      "title": "美股科技公司大举售股引发债务担忧",
+      "title": "美科技巨头大举发股引发AI债务担忧",
       "url": "https://www.bloomberg.com/news/articles/2026-06-27/tech-equity-sales-renew-ai-debt-binge-worries-credit-weekly",
       "source": "Bloomberg Markets",
-      "summary": "众多科技公司正在大举增发股票，这引发了债券持有人的担忧，外界担心AI领域的过度债务扩张可能最终会损害债权人利益。",
+      "summary": "科技企业正以类似互联网泡沫时期的速度增发股票融资，引发了债券投资者对于各大企业过度举债、盲目扩张AI基础设施导致的财务信用风险担忧。",
       "importance": 8
+    },
+    {
+      "title": "算力衍生品：金融机构探索算力资产化",
+      "url": "https://www.economist.com/finance-and-economics/2026/06/22/how-to-turn-compute-into-a-financial-asset",
+      "source": "The Economist Finance",
+      "summary": "创业公司与交易所正积极构建以算力（处理能力）为底层资产的创新型金融工具，试图将日益昂贵的数据中心计算资源转化为标准化、可交易的新型金融衍生品。",
+      "importance": 7
     }
   ],
   "politics_briefs": [
     {
-      "title": "委内瑞拉强震致超千人遇难",
-      "url": "https://www.theguardian.com/world/2026/jun/27/venezuela-earthquakes-death-toll-rises-jorge-rodriguez",
-      "source": "The Guardian",
-      "summary": "委内瑞拉本周发生的双重强震已导致超过1400人死亡，仍有近7万人下落不明。多国救援队伍正在灾区废墟中全力搜寻生还者。（多家报道）",
+      "title": "美军连续空袭伊朗致霍尔木兹海峡局势告急",
+      "url": "https://www.nytimes.com/live/2026/06/27/world/us-iran-strikes-hormuz",
+      "source": "NYT World",
+      "summary": "在霍尔木兹海峡一艘油轮遭遇无人机袭击后，美军连续第二晚对伊朗目标发起报复性空袭。这导致双方刚刚签署的脆弱停火框架协议面临破裂风险。（多家报道）",
       "importance": 9
     },
     {
-      "title": "美伊在霍尔木兹海峡再次发生冲突",
-      "url": "https://www.nytimes.com/live/2026/06/27/world/us-iran-strikes-hormuz",
-      "source": "NYT World",
-      "summary": "美军连续第二晚对伊朗实施报复性空袭。此前，商船在霍尔木兹海峡遭遇无人机袭击，导致刚签署的脆弱停火协议面临严峻考验。（多家报道）",
-      "importance": 9
+      "title": "委内瑞拉双重强震致上千人遇难",
+      "url": "https://www.theguardian.com/world/2026/jun/27/venezuela-earthquakes-death-toll-rises-jorge-rodriguez",
+      "source": "The Guardian",
+      "summary": "本周袭击委内瑞拉的强震遇难人数已攀升至1400人以上，另有近7万人报告失联。黄金救援期内，多国救援力量正全力在废墟中搜寻生还者。（多家报道）",
+      "importance": 8
+    },
+    {
+      "title": "以军空袭黎巴嫩南部挑战新签署框架协议",
+      "url": "https://www.bbc.co.uk/news/articles/cx2kpn0eeweo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "summary": "在黎以双方签署框架停火协议仅一天后，以色列对黎巴嫩南部发动空袭并致一人死亡，引发真主党强烈谴责，中东和平进程再现变数。",
+      "importance": 8
     }
   ],
-  "editor_note": "算力商品化和AI模型的迭代仍在加速，但地缘政治摩擦与宏观债务风险正成为今年全球复苏的最大不确定因素。",
+  "editor_note": "AI技术突破与传统地缘政治冲突在今日交织。无论是大国停火协议的脆弱，还是老牌工业巨头的转型阵痛，都昭示着变革期的不确定性。",
   "keywords": [
     "GPT-5.6",
     "霍尔木兹海峡",
-    "委内瑞拉地震",
-    "算力资产",
-    "关税壁垒",
     "德国车企裁员",
-    "隐私通信"
+    "委内瑞拉地震",
+    "算力资产化",
+    "计算机控制"
   ],
   "trading": {
     "market_overview": "",
@@ -294,18 +300,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 59944.7,
-        "pct1Day": -0.11951675211853283,
-        "pct5Day": -6.266260413753241,
-        "pct52WeekHigh": -52.49951128412662,
-        "pct52WeekLow": 3.2178224641124906,
-        "sma20": 63047.0404296875,
-        "sma50": 69826.24859375,
-        "sma200": 75837.50708984376,
-        "rsi14": 31.694139582711728,
-        "macd": -2322.7094618683623,
-        "macdSignal": -2295.909878195803,
-        "macdHistogram": -26.799583672559493,
+        "currentPrice": 60010,
+        "pct1Day": -0.010713212254508955,
+        "pct5Day": -6.16415275127462,
+        "pct52WeekHigh": -52.4477672281359,
+        "pct52WeekLow": 3.3302614921984905,
+        "sma20": 63050.30546875,
+        "sma50": 69827.554609375,
+        "sma200": 75837.83359375,
+        "rsi14": 31.846467513120473,
+        "macd": -2317.50028273747,
+        "macdSignal": -2294.8680423698534,
+        "macdHistogram": -22.63224036761676,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -326,18 +332,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 1571.16,
-        "pct1Day": -0.34606324936768,
-        "pct5Day": -8.997966214628727,
-        "pct52WeekHigh": -68.28331280672576,
-        "pct52WeekLow": 4.291673108173447,
-        "sma20": 1680.6168640136718,
-        "sma50": 1905.8567895507813,
-        "sma200": 2318.871305541992,
-        "rsi14": 31.716757685118196,
-        "macd": -79.46491932390131,
-        "macdSignal": -78.27396240891306,
-        "macdHistogram": -1.1909569149882486,
+        "currentPrice": 1573.23,
+        "pct1Day": -0.21476939700776593,
+        "pct5Day": -8.878071226253443,
+        "pct52WeekHigh": -68.24152613796505,
+        "pct52WeekLow": 4.42907716844351,
+        "sma20": 1680.720361328125,
+        "sma50": 1905.8981884765626,
+        "sma200": 2318.8816552734374,
+        "rsi14": 31.85165624294848,
+        "macd": -79.29979540338104,
+        "macdSignal": -78.2409376247768,
+        "macdHistogram": -1.058857778604235,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -358,18 +364,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 70.53,
-        "pct1Day": -1.817183321266487,
-        "pct5Day": -1.9165625745678008,
-        "pct52WeekHigh": -72.14563885535281,
-        "pct52WeekLow": 16.743071887116248,
-        "sma20": 69.61320247650147,
-        "sma50": 77.65622253417969,
-        "sma200": 95.46531242370605,
-        "rsi14": 46.83563783428019,
-        "macd": -1.5121862941499273,
-        "macdSignal": -2.0586701619428163,
-        "macdHistogram": 0.5464838677928889,
+        "currentPrice": 70.48,
+        "pct1Day": -1.8867869060380227,
+        "pct5Day": -1.986095707578879,
+        "pct52WeekHigh": -72.16538531866249,
+        "pct52WeekLow": 16.660310599800844,
+        "sma20": 69.6107027053833,
+        "sma50": 77.65522262573242,
+        "sma200": 95.46506244659423,
+        "rsi14": 46.743780683893114,
+        "macd": -1.5161745329700125,
+        "macdSignal": -2.059467809705656,
+        "macdHistogram": 0.5432932767356435,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -652,17 +658,17 @@
         "currency": "USD",
         "exchangeName": "NYB",
         "currentPrice": 101.366,
-        "pct1Day": -0.2401344443321509,
-        "pct5Day": 1.2748563380917255,
+        "pct1Day": -0.06309800353270409,
+        "pct5Day": 0.5116524875419963,
         "pct52WeekHigh": -0.4263261296660093,
         "pct52WeekLow": 6.086865515436947,
-        "sma20": 100.02299995422364,
-        "sma50": 99.15400024414062,
-        "sma200": 98.7528002166748,
-        "rsi14": 72.75794260051813,
-        "macd": 0.5984597322845389,
-        "macdSignal": 0.4305923203340221,
-        "macdHistogram": 0.16786741195051674,
+        "sma20": 100.14000015258789,
+        "sma50": 99.22000030517579,
+        "sma200": 98.77065021514892,
+        "rsi14": 71.18843558961062,
+        "macd": 0.6137665818441036,
+        "macdSignal": 0.4672271726360384,
+        "macdHistogram": 0.14653940920806519,
         "trend": "bullish",
         "rsiState": "overbought",
         "signals": [
@@ -682,19 +688,19 @@
       }
     ],
     "crypto_fear_greed": {
-      "value": 15,
+      "value": 18,
       "classification": "Extreme Fear",
       "classificationCn": "极度恐慌",
-      "timestamp": "2026-06-27T00:00:00.000Z"
+      "timestamp": "2026-06-28T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2153523055932.476,
-      "total24hVolumeUsd": 44332291369.09871,
-      "marketCapChangePct24h": -0.3246412262608068,
-      "btcDominance": 55.80466015440641,
-      "ethDominance": 8.803094733816923,
-      "activeCryptocurrencies": 17440
+      "totalMarketCapUsd": 2154634802521.8428,
+      "total24hVolumeUsd": 44243475382.70022,
+      "marketCapChangePct24h": -0.20798312936702745,
+      "btcDominance": 55.81587300683526,
+      "ethDominance": 8.805739719547958,
+      "activeCryptocurrencies": 17441
     },
-    "generated_at": "2026-06-27T23:38:50.966Z"
+    "generated_at": "2026-06-28T00:13:00.191Z"
   }
 }
