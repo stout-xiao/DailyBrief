@@ -1,129 +1,78 @@
 {
-  "hero_headline": "谷歌DeepMind迎来人事巨震，特朗普签署新政阻断风电",
-  "daily_overview": "今日科技界迎来巨震，谷歌DeepMind高层大洗牌，同时OpenAI与Meta加速大模型升级。财经领域，美国7月就业人数意外减少，特朗普政府斥资12亿美元叫停海上风电项目，SpaceX估值飙升逼近IPO价格。政治方面，西班牙因移民争端对意大利实施边境管制，特朗普签署行政令直指属地主义国籍权，且美伊、南海局势持续紧张。全球政经与技术格局正经历深刻调整。",
+  "hero_headline": "OpenAI发布GPT-5.6，多国博弈与AI产业变革加速",
+  "daily_overview": "今日科技界迎来巨震，OpenAI升级GPT-5.6系列模型，而谷歌DeepMind高层大换血，AI创企月之暗面谋求港股上市；财经方面，美国7月就业人数意外下滑，特朗普政府豪掷12亿美元终止海上风电项目，SpaceX估值持续飙升；地缘政治领域，西班牙与意大利因移民问题重设边境管制，南海海警牺牲信息首度公开。全球正处于技术迭代与政治摩擦交织的深水区。",
   "tech_briefs": [
     {
-      "title": "谷歌DeepMind管理层重组",
+      "title": "谷歌DeepMind高层大幅重组",
       "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
       "source": "Latent Space",
-      "summary": "谷歌DeepMind重组，创始人转任主席，运营官全面接管日常业务，数位资深核心高管确认离职，标志着一个时代的终结。（多家报道）",
+      "summary": "谷歌DeepMind迎来重大领导层调整。联合创始人哈萨比斯转任董事长兼首席科学家，卡武克丘奥卢接掌运营大权，多位核心高管离职，组织重心全面转向Gemini开发。（多家报道）",
       "importance": 9
     },
     {
-      "title": "OpenAI升级GPT模型并开放Luna",
+      "title": "OpenAI升级GPT-5.6系列模型",
       "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
       "source": "OpenAI News",
-      "summary": "OpenAI宣布对ChatGPT中的GPT-5.6 Sol模型进行升级并提升其回答准确性，同时向免费用户提供GPT-5.6 Luna的使用权限。（多家报道）",
-      "importance": 8
+      "summary": "OpenAI推出改进版GPT-5.6 Sol，提升了其在ChatGPT中的准确度与一致性，并面向免费用户全面开放GPT-5.6 Luna的无限制日常对话权限。（多家报道）",
+      "importance": 9
     },
     {
-      "title": "自动迭代编程智能体PrimeAgent",
+      "title": "智能体框架PrimeAgent开源",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
       "source": "GitHub Trending",
-      "summary": "这是一个开源的自愈式AI编程智能体。它利用强化学习自主修复代码缺陷并优化工作流，能执行长跨度复杂任务，解决了传统工具无法处理多文件自纠错的痛点。",
+      "summary": "这是一个开源的自我改良RLM智能体，专为编程工作流和长期运行的自主任务设计。它通过强化学习机制，能让AI在长时间执行复杂代码任务时自主纠错与迭代。",
       "importance": 7
     },
     {
-      "title": "Cloudflare推出智能体计算机",
-      "url": "https://github.com/cloudflare/computer",
-      "source": "GitHub Trending",
-      "summary": "该项目为AI智能体提供云端虚拟操作系统环境。智能体可通过API执行屏幕截图、键盘模拟等操作，为智能体从理论走向现实应用提供了底层安全运行沙箱。",
-      "importance": 7
-    },
-    {
-      "title": "谷歌推出全新机器人具身智能模型",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "title": "谷歌发布气旋预测AI模型",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
       "source": "DeepMind Blog",
-      "summary": "谷歌DeepMind发布ER 2模型，大幅提升机器人在视频理解、任务编排和多机协同方面的能力，助力具身智能在现实复杂场景中实现自主决策。",
+      "summary": "谷歌DeepMind发布WeatherNext人工智能模型。该模型在热带气旋预测上取得突破性进展，极大提升了气象预报的精度与前瞻性。",
       "importance": 8
     }
   ],
   "finance_briefs": [
     {
-      "title": "特朗普政府斥巨资中止风电项目",
+      "title": "月之暗面计划赴港上市筹资",
+      "url": "https://www.ft.com/content/9c0d4f0d-d2c6-4189-b4bb-200d17a4720f?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "summary": "中国人工智能独角兽「月之暗面」正在进行架构调整，计划在香港进行首次公开募股（IPO），以在下一阶段的发展中筹集更多资金。",
+      "importance": 8
+    },
+    {
+      "title": "特朗普政府终止美海上风电项目",
       "url": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
-      "summary": "美国特朗普政府同意向德国能源巨头支付12亿美元以中止其海上风电开发项目。这体现了特朗普政府对化石能源的偏好及对风电政策的逆转。",
+      "summary": "特朗普政府同意向德国能源巨头RWE支付12亿美元，以中止其在美国的海上风电开发项目。这体现了现任政府对风力发电一贯的排斥立场。",
       "importance": 8
-    },
-    {
-      "title": "美国七月非农就业人口意外减少",
-      "url": "https://www.bbc.co.uk/news/articles/c20j5rle717o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "summary": "美国7月份非农就业岗位意外减少2.3万个，远低于分析师此前增长的预期，显示出在高利率背景下美国劳动力市场复苏动能有所减弱。",
-      "importance": 8
-    },
-    {
-      "title": "SpaceX估值飙升逼近IPO价格",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/spacex-nears-ipo-price-again-after-staging-327-billion-rally",
-      "source": "Bloomberg Markets",
-      "summary": "受市场强劲需求推动，SpaceX股价连续上涨并逼近每股135美元的IPO价格，累计市值反弹达3270亿美元，逆转了上月的下跌颓势。",
-      "importance": 7
-    },
-    {
-      "title": "非洲多国加速「去美元化」进程",
-      "url": "https://www.economist.com/finance-and-economics/2026/08/06/african-countries-are-souring-on-the-dollar",
-      "source": "The Economist Finance",
-      "summary": "受美元 high 利率和外汇储备压力影响，部分非洲国家正在减少对美元的依赖，转而增加人民币和本币在双边贸易与储备中的使用比例。",
-      "importance": 7
     }
   ],
-  "politics_briefs": [
-    {
-      "title": "西班牙对意大利实施临时边境管制",
-      "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "summary": "因大量移民经由休达涌入，意法等国关系紧张。西班牙宣布对来自意大利的旅客实施临时边境检查，申根区自由通行面临考验。（多家报道）",
-      "importance": 8
-    },
-    {
-      "title": "特朗普拟取消「出生公民权」",
-      "url": "https://www.npr.org/2026/08/07/g-s1-137730/up-first-newsletter-trump-birthright-citizenship-iran-oman-strait-of-hormuz-anthony-fauci-mitch-mcconnell",
-      "source": "NPR World",
-      "summary": "特朗普签署新行政令，旨在取消在美出生即自动获得公民身份的「出生公民权」。同时伊朗计划禁止美国船只通行霍尔木兹海峡，地缘局势升级。",
-      "importance": 9
-    },
-    {
-      "title": "官方证实去年南海相撞事件两海警殉职",
-      "url": "https://www.dw.com/zh/中国海警船与军舰南海相撞1年后-官方证实2人死亡追授-烈士/a-78282773?maca=chi-rss-chi-all-1127-rdf",
-      "source": "DW 中文",
-      "summary": "在中菲南海相撞事件发生一年后，中国官方首次间接证实有两名海警在执行一线任务时牺牲，并依法追授其烈士称号。",
-      "importance": 7
-    }
-  ],
-  "editor_note": "本期简报见证了全球AI前沿阵营剧烈的人事与模型洗牌，而政治不确定性与地缘摩擦正加速重塑全球供应链与自由流动格局。",
-  "keywords": [
-    "DeepMind",
-    "OpenAI",
-    "特朗普新政",
-    "去美元化",
-    "地缘政治",
-    "出生公民权",
-    "具身智能"
-  ],
+  "politics_briefs": [],
+  "editor_note": "",
+  "keywords": [],
   "trading": {
-    "market_overview": "整体市场呈现出多样的技术面特征。美股市场动能强劲，SPY 创下 52 周新高且呈现多头排列，QQQ 在 MACD 金叉带动下 5 日上涨 5.09%，而 MSFT 因 RSI 达 78.1 陷入超买状态。中概股整体中性偏暖，拼多多（PDD）5 日上涨 3.61%，京东（JD）RSI 达 74.3 呈现超买迹象。商品外汇方面，黄金期货 5 日强劲反弹 8.70% 至 4401.30，而原油期货（CL=F）则由于 MACD 死叉 5 日重挫 8.96%；美元/人民币则在 26.9 的超低 RSI 状态下处于超卖低位。加密市场在情绪层面上，加密恐慌贪婪指数为 29 处于「恐慌」状态，总市值达 2.29T 美元（24h 变化 0.63%），BTC 主导率 56.8%，ETH 主导率 10.1%，主要代币如 BTC（64858.33 美元）与 ETH 虽然出现 MACD 金叉，但由于受制于 SMA200 均线，整体技术趋势依然处于中性博弈。",
+    "market_overview": "当前市场多空走势分化。美股市场动能较强，SPY与QQQ在均线多头排列及MACD金叉支撑下接近52周高点，但MSFT（RSI为78.1）已呈现超买。中概股呈现筑底盘整，拼多多（PDD）及腾讯（0700.HK）运行于短期均线上方，而京东（JD）RSI达74.3步入超买。加密市场方面，目前总市值达2.29T USD（24h微涨0.66%），BTC主导率56.8%，ETH主导率10.1%，恐慌贪婪指数录得30（恐慌）；BTC（64900.8）与ETH以震荡整理为主，价格仍承压于SMA200。商品与外汇市场中，黄金期货（GC=F）近5日大涨8.7%表现强劲，美元指数走弱，美元兑人民币（USDCNY=X）RSI跌至26.9步入超卖区间，原油则受MACD死叉压制呈现偏弱震荡。",
     "watchlist": [
       {
         "symbol": "SPY",
-        "display_name": "S&P 500 ETF (SPY)",
+        "display_name": "S&P 500 ETF",
         "stance": "偏上行",
-        "rationale": "标的价格 773.26 元，技术形态呈现多头排列，SMA20（750.17）与 SMA50（747.19）均运行于 SMA200（702.97）之上。MACD 数值 6.1859 向上突破信号线 2.8495，触发 MACD 金叉信号。虽然 14 日 RSI 达 66.0 偏向高位，但尚未进入超买区，整体技术动能偏上行，价格紧贴 52 周高点。"
+        "rationale": "SPY当前价格为773.26，近5日上涨3.51%。技术面上，SMA20（750.17）、SMA50（747.19）与SMA200（702.97）呈现典型的多头排列。此外，MACD（6.1859）上穿信号线（2.8495）形成金叉，RSI14读数为66，显示上行动能较强且尚未步入超买区间。"
       },
       {
         "symbol": "USDCNY=X",
-        "display_name": "美元 / 人民币 (USDCNY=X)",
+        "display_name": "美元 / 人民币",
         "stance": "偏下行",
-        "rationale": "美元兑人民币汇率报 6.74，呈现空头排列，价格低于 SMA20（6.76）、SMA50（6.77）及 SMA200（6.90）。其 14 日 RSI 读数跌至 26.9，触及超卖区间。MACD 为 -0.0095，略低于信号线 -0.0071，显示短期下行惯性强劲。整体技术状态偏下行，目前价格处于接近 52 周低点的弱势整理阶段。"
+        "rationale": "美元/人民币当前报价6.74，均线系统呈现明显的空头排列。目前RSI14已跌至26.9，触及超卖区间，显示出较强的下行动能。MACD指标（-0.0095）持续运行于信号线（-0.0071）下方，走势偏弱并逼近52周低点。"
       },
       {
         "symbol": "BTC-USD",
-        "display_name": "比特币 (BTC-USD)",
+        "display_name": "Bitcoin",
         "stance": "中性",
-        "rationale": "比特币报价 64858.33 美元，技术趋势整体定义为中性。价格虽企稳于 SMA20（64392.29）和 SMA50（63277.60）之上，但仍承压于 SMA200（70369.53）。14 日 RSI 处于 54.4 的中性区间。MACD 指标录得 65.5626 并上穿信号线 31.3855 形成金叉，多空双方在当前位置均势博弈。"
+        "rationale": "BTC当前报价64900.8，近5日微涨2.23%。尽管日线级别触发了MACD金叉（MACD 68.9507高于信号线32.0631），但当前价格仍承压于关键的SMA200均线（70369.74）下方。RSI14读数为54.6，显示多空力量相对均衡，整体处于中性整理区间。"
       }
     ],
-    "risk_caveat": "本报告基于历史公开行情数据计算得出，过去走势不代表未来表现。所有技术指标读数及形态分析仅供技术指标解读参考，不构成任何投资建议或交易指引。",
+    "risk_caveat": "本报告内容仅供技术指标解读参考，不构成任何投资操作建议。投资者需注意，历史走势及技术指标的过去表现不代表未来表现，市场有风险，入市需谨慎。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -366,18 +315,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 64858.33,
-        "pct1Day": 0.927788845257229,
-        "pct5Day": 2.1680633880470084,
-        "pct52WeekHigh": -48.60592558982875,
-        "pct52WeekLow": 12.31314125640808,
-        "sma20": 64392.288671875,
-        "sma50": 63277.595625,
-        "sma200": 70369.53203125,
-        "rsi14": 54.41825865256584,
-        "macd": 65.56259822050924,
-        "macdSignal": 31.385515826009915,
-        "macdHistogram": 34.17708239449933,
+        "currentPrice": 64900.8,
+        "pct1Day": 0.993877552633108,
+        "pct5Day": 2.234964241832335,
+        "pct52WeekHigh": -48.57227214330616,
+        "pct52WeekLow": 12.38668522692289,
+        "sma20": 64394.4123046875,
+        "sma50": 63278.445078125,
+        "sma200": 70369.74439453126,
+        "rsi14": 54.62240345295365,
+        "macd": 68.95073034289089,
+        "macdSignal": 32.06314225034099,
+        "macdHistogram": 36.887588092549905,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": [
@@ -394,18 +343,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 1915.19,
-        "pct1Day": 0.6904367989151373,
-        "pct5Day": 1.7353331232386768,
-        "pct52WeekHigh": -61.33844920588171,
-        "pct52WeekLow": 27.127962409966333,
-        "sma20": 1893.7103698730468,
-        "sma50": 1794.3626049804689,
-        "sma200": 2060.5188946533203,
-        "rsi14": 56.548835117302765,
-        "macd": 20.698825675582157,
-        "macdSignal": 24.493587410916593,
-        "macdHistogram": -3.7947617353344363,
+        "currentPrice": 1914.04,
+        "pct1Day": 0.6299759556991841,
+        "pct5Day": 1.674244858841028,
+        "pct52WeekHigh": -61.36166402185989,
+        "pct52WeekLow": 27.0516268209274,
+        "sma20": 1893.6528747558593,
+        "sma50": 1794.3396069335938,
+        "sma200": 2060.5131451416014,
+        "rsi14": 56.42126148617544,
+        "macd": 20.607095573983543,
+        "macdSignal": 24.475241390466017,
+        "macdHistogram": -3.8681458164824747,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -416,18 +365,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 73.65,
-        "pct1Day": 1.4790970013928753,
-        "pct5Day": 0.27390225326797546,
-        "pct52WeekHigh": -70.91345954482821,
-        "pct52WeekLow": 21.907376215597793,
-        "sma20": 74.61614112854004,
-        "sma50": 75.11891220092774,
-        "sma200": 84.03862739562989,
-        "rsi14": 46.722279522505616,
-        "macd": -0.7530238916719441,
-        "macdSignal": -0.6677289197588986,
-        "macdHistogram": -0.08529497191304547,
+        "currentPrice": 73.67,
+        "pct1Day": 1.5066541220992902,
+        "pct5Day": 0.3011320977359315,
+        "pct52WeekHigh": -70.90556095950434,
+        "pct52WeekLow": 21.940480730523948,
+        "sma20": 74.61714096069336,
+        "sma50": 75.11931213378907,
+        "sma200": 84.03872737884521,
+        "rsi14": 46.793747521954025,
+        "macd": -0.7514287178660908,
+        "macdSignal": -0.6674098849977275,
+        "macdHistogram": -0.08401883286836331,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -712,19 +661,19 @@
       }
     ],
     "crypto_fear_greed": {
-      "value": 29,
+      "value": 30,
       "classification": "Fear",
       "classificationCn": "恐慌",
-      "timestamp": "2026-08-07T00:00:00.000Z"
+      "timestamp": "2026-08-08T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2292358784388.3037,
-      "total24hVolumeUsd": 54434640956.77331,
-      "marketCapChangePct24h": 0.6294653325770979,
-      "btcDominance": 56.76973844485795,
-      "ethDominance": 10.075942873979528,
-      "activeCryptocurrencies": 18247
+      "totalMarketCapUsd": 2292991807636.1475,
+      "total24hVolumeUsd": 54355696113.18306,
+      "marketCapChangePct24h": 0.6572536488770837,
+      "btcDominance": 56.78239833721774,
+      "ethDominance": 10.069993688692023,
+      "activeCryptocurrencies": 18248
     },
-    "generated_at": "2026-08-07T23:12:46.874Z"
+    "generated_at": "2026-08-08T00:06:41.648Z"
   }
 }
